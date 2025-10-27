@@ -1,0 +1,34 @@
+
+---
+
+## 🧾 .gitignore  
+
+```gitignore
+# Entorno virtual
+.venv/
+env/
+venv/
+
+# Archivos compilados de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos de pruebas y reportes
+.coverage
+.cache/
+.pytest_cache/
+htmlcov/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de entorno o configuración local
+.env
+*.log
+
+# Archivos de editor
+.vscode/
+.idea/
